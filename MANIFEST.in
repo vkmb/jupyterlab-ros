@@ -6,4 +6,6 @@ include jupyter_ros_server/jupyter_ros_server.json
 
 graft jupyter_ros_server/static
 graft jupyter_ros_server/public
+graft jupyter_ros_server/public/image/viz
+graft jupyter_ros_server/public/forklift 
 graft jupyter_ros_server/labextension

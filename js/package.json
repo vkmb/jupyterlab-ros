@@ -35,7 +35,7 @@
     "eslint": "eslint . --ext .ts,.tsx --fix",
     "eslint:check": "eslint . --ext .ts,.tsx",
     "prepare": "jlpm run clean && jlpm run build",
-    "zethus": "npx copyfiles -u 3 node_modules/zethus/build/* ../jupyter_ros_server/public/",
+    "zethus": "npx copyfiles -u 3 \"node_modules/zethus/build/**/*\" ../jupyter_ros_server/public/",
     "del": "rm -r node_modules build tsconfig.tsbuildinfo yarn.lock ../jupyter_ros_server/public"
   },
   "dependencies": {

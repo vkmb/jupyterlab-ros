@@ -1,6 +1,5 @@
 from os import path,environ
 import json
-from tkinter import W
 
 ROOT = path.dirname(path.dirname(__file__))
 PUBLIC = path.join(ROOT, 'public')
